@@ -57,6 +57,7 @@ const createSaveBtn = (saveUrl) => {
 
 // on load
 hideSpinner();
+clearUI();
 
 // on submit
 form.addEventListener('submit', onGenerateSubmit);
